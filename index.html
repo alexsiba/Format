@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Forstrage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <form action="#" class="form" id="form">
+            <h1>Welcome</h1>
+            <label for="fn">First Name</label>
+            <input type="text" name="name" id="name" placeholder="First name" required><br>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last name" required><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required><br>
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone" required><br>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required><br>
+            
+            <label for="quantity">Quantitly</label>
+            <input type="number" name="quantity" id="quantity" required><br>
+            <div class="radio">
+                <label for="title">Title</label><br>
+                <input type="radio" id="mr" name="radio" required><label for="mr">Mr</label>
+                <input type="radio" id="ms" name="radio" required><label for="ms">Ms</label>
+                <input type="radio" id="mrs" name="radio" required><label for="mrs">Mrs</label>
+            </div>
+
+            <div class="subscribe">
+                <label for="subscribe">Subscribe</label>
+                <input type="checkbox" required>
+                <input type="reset">
+            </div>
+
+            <label for="payment">Payment</label>
+            <select name="payment" id="pay">
+                <option value="awash">Awash Bank</option>
+                <option value="oromiya">Oromiya Bank</option>
+                <option value="abay">Abay Bank</option>
+            </select><br>
+
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
